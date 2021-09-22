@@ -1,7 +1,7 @@
 # Jetson Nano with Ubuntu 20.04 OS image
 ![output image]( https://qengineering.eu/images/SDcard32GBJetsonUB20.webp )<br/>
 ## A Jetson Nano image Ubuntu 20.04 with OpenCV, TensorFlow and Pytorch
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
 
 ------------
 
