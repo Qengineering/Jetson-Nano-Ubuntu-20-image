@@ -24,6 +24,14 @@
 ![output image]( https://qengineering.eu/images/JtopUb20.png )<br/>
 * There are reasons why Nvidia doesn't ship Ubuntu 20.04 with its JetPacks. It certainly has to do with the little added value compared to version 18.04. But there will also be other reasons. Therefore, see this Ubuntu 20.04 version as an experiment. That's why it comes without any warranty, and we cannot provide (technical) support in any way.<br/><br/>
 
+
+------------
+
+## Upgrading.
+
+You may encounter issues when upgrading (`$ sudo apt-get upgrade`) this Ubuntu 20.04 version. It has to do with a conflicting `/etc/systemd/sleep.conf` file, which blocks the upgrade.
+Follow the instructions on our [website](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html#upgrade) to resolve this issue.
+
 ------------
 
 ## Tips.
