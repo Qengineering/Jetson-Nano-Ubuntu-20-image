@@ -1,6 +1,6 @@
 # Jetson Nano with Ubuntu 20.04 OS image
 ![output image]( https://qengineering.eu/images/SDcard32GBJetsonUB20.webp )<br/><br/>
-![output image]( https://qengineering.eu/images/ScreenUb20.webp )<br/><br/>
+![output image]( https://qengineering.eu/images/ScreenUb20_2.webp )<br/><br/>
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
@@ -10,7 +10,7 @@
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/18zXVPLCROyhUupUGMsBFN2URUN-NjEKQ/view?usp=sharing) site. 
+- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1GyHptqenyuyNOPx8tE4ria6-G9Eehpmm/view?usp=sharing) site. 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
@@ -49,6 +49,7 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 - [TensorFLow](https://qengineering.eu/install-tensorflow-2.4.0-on-raspberry-64-os.html) 2.4.1
 - [Pytorch](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 1.9.0
 - [TorchVision](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 0.10.0
+- [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
 
 Tensorflow 2.5 and above require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software at this time, hence Tensorflow 2.4.1. Only when NVIDIA releases a JetPack with CUDA 11 will we be able to upgrade Tensorflow.
 
