@@ -72,3 +72,7 @@ We don't recommend it. Not all OpenCV algorithms automatically switch to pthread
 Our advice is to import OpenCV into Python first before anything else.<br/><br/>
 
 Please visit https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html for more information.<br/>
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
