@@ -45,7 +45,7 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 ------------
 
-## Pre-installed frameworks.
+## Pre-installed software.
 
 - [OpenCV](https://qengineering.eu/deep-learning-with-opencv-on-raspberry-pi-4.html) 4.5.3
 - [TensorFLow](https://qengineering.eu/install-tensorflow-2.4.0-on-raspberry-64-os.html) 2.4.1
