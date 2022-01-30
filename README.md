@@ -3,7 +3,9 @@
 ![output image]( https://qengineering.eu/images/ScreenUb20_2.webp )<br/><br/>
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/>
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Update 1-30-2022. 
+Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/SkrilaxCZ))
 
 ------------
 
@@ -50,6 +52,7 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 - [Pytorch](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 1.9.0
 - [TorchVision](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 0.10.0
 - [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
+- [Jtop](https://github.com/rbonghi/jetson_stats) 3.1.2
 
 Tensorflow 2.5 and above require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software at this time, hence Tensorflow 2.4.1. Only when NVIDIA releases a JetPack with CUDA 11 will we be able to upgrade Tensorflow.
 
