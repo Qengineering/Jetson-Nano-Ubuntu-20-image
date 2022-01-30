@@ -5,14 +5,14 @@
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 ### Update 1-30-2022. 
-Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/SkrilaxCZ))
+Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
 
 ------------
 
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1GyHptqenyuyNOPx8tE4ria6-G9Eehpmm/view?usp=sharing) site. 
+- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1HRL-Okw_g5dzJmgMfn7JtyGxCeTkcl6F/view?usp=sharing) site. 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
