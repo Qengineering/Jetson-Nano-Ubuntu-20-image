@@ -12,7 +12,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1rssyP1Pl07JYUfPt6r9sqLIvqHXb6ZRm/view?usp=sharing) or [mirror Gdrive](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing). 
+- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1rssyP1Pl07JYUfPt6r9sqLIvqHXb6ZRm/view?usp=sharing) or mirror [Gdrive](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
