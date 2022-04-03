@@ -16,6 +16,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
+- JetsonNanoUb20.zip md5sum: b1eca9572a463e2b79407c82f9672c41
 
 ------------
 
