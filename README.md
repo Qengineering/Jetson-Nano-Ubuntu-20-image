@@ -24,9 +24,9 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 ## Warnings.
 
 * **Do not install Chromium** as it will interfere with the Snap installation. Use the preinstalled Morzilla Firefox.
-* **Do not install JTop**! It disrupts your vulkan lavapipe which is always active during your Ubuntu sessions.
-![output image]( https://qengineering.eu/images/JtopUb20.png )<br/>
-* There are reasons why Nvidia doesn't ship Ubuntu 20.04 with its JetPacks. It certainly has to do with the little added value compared to version 18.04. But there will also be other reasons. Therefore, see this Ubuntu 20.04 version as an experiment. That's why it comes without any warranty, and we cannot provide (technical) support in any way.<br/><br/>
+* **Corrupted lavapipe** You may encounter a warning during booting that the lavapipe is broken.<br/>
+The solve the issue remove the /usr/share/vulkan/icd.d folder `$ sudo rm -rf /usr/share/vulkan/icd.d`<br/>
+See issue [#173](https://github.com/rbonghi/jetson_stats/issues/173).
 
 
 ------------
