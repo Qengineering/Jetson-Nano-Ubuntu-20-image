@@ -9,7 +9,7 @@
 - Update OpenCV (**4.6.0**)
 - Update PyTorch (**1.12.0**)
 - Update TorchVision (**0.13.0**)
-- New xz achive (reduction 26% GB)
+- New xz achive (size reduction 26%)
 - New download site (Gdrive has a limited number of downloads per day).
 ### Update 1-30-2022. 
 Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
