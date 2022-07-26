@@ -4,6 +4,13 @@
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Update 7-26-2022. 
+- Refresh Ubuntu 20.04
+- Update OpenCV (**4.6.0**)
+- Update PyTorch (**1.12.0**)
+- Update TorchVision (**0.13.0**)
+- New xz achive (reduction 26% GB)
+- New download site (Gdrive has a limited number of downloads per day).
 ### Update 1-30-2022. 
 Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
 
@@ -12,12 +19,11 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**10.3 GByte!**) from our [Gdrive](https://drive.google.com/file/d/1rssyP1Pl07JYUfPt6r9sqLIvqHXb6ZRm/view?usp=sharing) or mirror [Gdrive](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing). 
+- Download the image (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/3a81c82d0/kngeabjw-qtt943v6-mz7kqtpu-xzqcekgy). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
-- According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the zip directly, not an unzipped img image.
+- According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
-- JetsonNanoUb20.zip md5sum: b1eca9572a463e2b79407c82f9672c41
 
 ------------
 
@@ -49,16 +55,17 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 ## Pre-installed software.
 
-- [OpenCV](https://qengineering.eu/deep-learning-with-opencv-on-raspberry-pi-4.html) 4.5.3
+- [OpenCV](https://qengineering.eu/deep-learning-with-opencv-on-raspberry-pi-4.html) 4.6.0
 - [TensorFlow](https://qengineering.eu/install-tensorflow-2.4.0-on-raspberry-64-os.html) 2.4.1
-- [Pytorch](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 1.9.0
-- [TorchVision](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 0.10.0
+- [Pytorch](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 1.12.0
+- [TorchVision](https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html) 0.13.0
 - [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
 - [Jtop](https://github.com/rbonghi/jetson_stats) 3.1.2
 
 Tensorflow 2.5 and above require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software at this time, hence Tensorflow 2.4.1. Only when NVIDIA releases a JetPack for the Jetson Nano with CUDA 11 will we be able to upgrade Tensorflow.
 
-![output image]( https://qengineering.eu/images/InstalledUb20.png )<br/><br/>
+![output image]( https://qengineering.eu/images/InstalledUb202.png )<br/>
+![output image]( https://qengineering.eu/images/InstalledJtop202.png )<br/>
 
 ------------
 
