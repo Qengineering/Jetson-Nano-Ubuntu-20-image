@@ -27,6 +27,33 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 
 ------------
 
+### Split image.
+
+Because the image is large (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
+That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
+Please download the following 8 files (1 GB each) and place them in one folder.</br>
+- [JetsonUb20.7z.001](https://ln5.sync.com/dl/e02229a30/8msfib9d-ahs8n26f-cn7jd5ah-j3zm7arq)
+- [JetsonUb20.7z.002](https://ln5.sync.com/dl/238fdf9c0/fb2mmhuf-bibnqa9z-dw9d58yc-83j3xuwg)
+- [JetsonUb20.7z.003](https://ln5.sync.com/dl/aa7200350/8ivmxgsc-wfu7ym2i-ijue5xi3-gjsr4jyg)
+- [JetsonUb20.7z.004](https://ln5.sync.com/dl/b28aebb80/2bgwkipp-addax4zg-ri67rjg6-2g3kp62t)
+- [JetsonUb20.7z.005](https://ln5.sync.com/dl/7ac1eafc0/d4gfdnrb-yq5ihqea-392tn7ja-mmvje7pf)
+- [JetsonUb20.7z.006](https://ln5.sync.com/dl/eb48c8b20/skgtj722-a95jycpf-jvkuv6my-5u94z3jr)
+- [JetsonUb20.7z.007](https://ln5.sync.com/dl/6f17578b0/7uz9f3b8-5qd7atir-62r54vsd-sizbf4nv)
+- [JetsonUb20.7z.008](https://ln5.sync.com/dl/cfd4d4b00/ivtk6hma-2suysu2u-yiqdwdsa-fc2fcz8s)
+
+Once you have all the files run
+```
+7z x JetsonUb20.7z.001
+```
+7Z will start extracting the first file (`*.001`) and then automatically the next files in order.</br>
+You will endup with `JetsonNanoUb20_2.xz`, the original image which you now can flash on a SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
+If you get the error `'7z' is not recognized as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
+```
+"C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_2.7z.001
+```
+
+------------
+
 ## Warnings.
 
 * **Do not install Chromium** as it will interfere with the Snap installation. Use the preinstalled Morzilla Firefox.
