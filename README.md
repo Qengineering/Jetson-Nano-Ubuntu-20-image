@@ -31,7 +31,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 
 Because the image is large (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
 That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
-Please download the following 8 files (1 GB each) and place them in one folder.</br>
+If you prefer this partial download over one large one, download the following 8 files (1 GB each) and place them in one folder.</br>
 - [JetsonUb20.7z.001](https://ln5.sync.com/dl/e02229a30/8msfib9d-ahs8n26f-cn7jd5ah-j3zm7arq)
 - [JetsonUb20.7z.002](https://ln5.sync.com/dl/238fdf9c0/fb2mmhuf-bibnqa9z-dw9d58yc-83j3xuwg)
 - [JetsonUb20.7z.003](https://ln5.sync.com/dl/aa7200350/8ivmxgsc-wfu7ym2i-ijue5xi3-gjsr4jyg)
