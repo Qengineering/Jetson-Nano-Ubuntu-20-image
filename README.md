@@ -4,6 +4,8 @@
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Update 7-30-2022. 
+- Added bare overclocked Ubuntu 20.04 image.
 ### Update 7-26-2022. 
 - Refresh Ubuntu 20.04
 - Update OpenCV (**4.6.0**)
@@ -19,7 +21,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/3a81c82d0/kngeabjw-qtt943v6-mz7kqtpu-xzqcekgy). 
+- Download the image (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
@@ -32,18 +34,18 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 Because the image is large (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
 That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
 If you prefer this partial download over one large one, download the following 8 files (1 GB each) and place them in one folder.</br>
-- [JetsonUb20.7z.001](https://ln5.sync.com/dl/e02229a30/8msfib9d-ahs8n26f-cn7jd5ah-j3zm7arq)
-- [JetsonUb20.7z.002](https://ln5.sync.com/dl/238fdf9c0/fb2mmhuf-bibnqa9z-dw9d58yc-83j3xuwg)
-- [JetsonUb20.7z.003](https://ln5.sync.com/dl/aa7200350/8ivmxgsc-wfu7ym2i-ijue5xi3-gjsr4jyg)
-- [JetsonUb20.7z.004](https://ln5.sync.com/dl/b28aebb80/2bgwkipp-addax4zg-ri67rjg6-2g3kp62t)
-- [JetsonUb20.7z.005](https://ln5.sync.com/dl/7ac1eafc0/d4gfdnrb-yq5ihqea-392tn7ja-mmvje7pf)
-- [JetsonUb20.7z.006](https://ln5.sync.com/dl/eb48c8b20/skgtj722-a95jycpf-jvkuv6my-5u94z3jr)
-- [JetsonUb20.7z.007](https://ln5.sync.com/dl/6f17578b0/7uz9f3b8-5qd7atir-62r54vsd-sizbf4nv)
-- [JetsonUb20.7z.008](https://ln5.sync.com/dl/cfd4d4b00/ivtk6hma-2suysu2u-yiqdwdsa-fc2fcz8s)
+- [JetsonUb20_2.7z.001](https://ln5.sync.com/dl/44d2f0f10/9h9skipf-i7jaixkh-mpbznnev-vk58qfaa)
+- [JetsonUb20_2.7z.002](https://ln5.sync.com/dl/d506a8680/rfs5jync-rgnkvk9u-igwjc2y5-pxkppy4c)
+- [JetsonUb20_2.7z.003](https://ln5.sync.com/dl/21e5b83e0/e87zbu2t-mx8vvhh4-z7kww4g3-hfe68b46)
+- [JetsonUb20_2.7z.004](https://ln5.sync.com/dl/401753da0/qipc4az9-7amw452w-asiazc5u-t8t4yy99)
+- [JetsonUb20_2.7z.005](https://ln5.sync.com/dl/866cb6b90/zrpbzhyk-p392casn-qqmp2g6c-qwxiz7nq)
+- [JetsonUb20_2.7z.006](https://ln5.sync.com/dl/84b315060/w6mb6jyi-pnhrxs2i-e3mqn747-8yqzpc4n)
+- [JetsonUb20_2.7z.007](https://ln5.sync.com/dl/7a82d6820/xn6y9jva-xqeqfqkq-hbu5kkr2-dssdjhhq)
+- [JetsonUb20_2.7z.008](https://ln5.sync.com/dl/01c6d8a60/6nrvzuv9-4s8ik4wh-3hqn6b8k-4cj4hkz4)
 
 Once you have all the files run
 ```
-7z x JetsonUb20.7z.001
+7z x JetsonUb20_2.7z.001
 ```
 7Z will start extracting the first file (`*.001`) and then automatically the next files in order.</br>
 You will endup with `JetsonNanoUb20_2.xz`, the original image which you now can flash on a SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
@@ -51,6 +53,15 @@ If you get the error `'7z' is not recognized as an internal or external command,
 ```
 "C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_2.7z.001
 ```
+
+------------
+
+### Bare image.
+
+For those who want a bare-bones Ubuntu 20.04 OS, without TensorFlow and PyTorch, you can download the [image here](https://ln5.sync.com/dl/7261d3770/jebr2z9k-kwj4wwvd-3wxjtqsx-36zbu3cx) (5.6 GB).<br/>
+The Nano is overclocked at 1900 MHz. See https://qengineering.eu/overclocking-the-jetson-nano.html for more information.<br/>
+By the way, the image with TensorFlow and PyTorch is not overclocked and runs at the regular 1479 MHz.<br/>
+![output image]( https://qengineering.eu/images/OverNanoUb20.webp )<br/>
 
 ------------
 
