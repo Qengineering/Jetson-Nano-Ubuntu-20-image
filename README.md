@@ -48,7 +48,7 @@ Once you have all the files run
 7z x JetsonUb20_2.7z.001
 ```
 7Z will start extracting the first file (`*.001`) and then automatically the next files in order.</br>
-You will endup with `JetsonNanoUb20_2.xz`, the original image which you now can flash on a SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
+You will endup with `JetsonNanoUb20_2.img.xz`, the original image which you now can flash on a SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
 If you get the error `'7z' is not recognized as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
 ```
 "C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_2.7z.001
@@ -58,10 +58,16 @@ If you get the error `'7z' is not recognized as an internal or external command,
 
 ### Bare image.
 
-For those who want a bare-bones Ubuntu 20.04 OS, without TensorFlow and PyTorch, you can download the [image here](https://ln5.sync.com/dl/7261d3770/jebr2z9k-kwj4wwvd-3wxjtqsx-36zbu3cx) (5.6 GB).<br/>
+For those who want a bare-bones Ubuntu 20.04 OS with JetPack 4.6.1, without TensorFlow and PyTorch, you can download the [image here](https://ln5.sync.com/dl/7261d3770/jebr2z9k-kwj4wwvd-3wxjtqsx-36zbu3cx) (5.6 GB).<br/>
 The Nano is overclocked at 1900 MHz. See https://qengineering.eu/overclocking-the-jetson-nano.html for more information.<br/>
 By the way, the image with TensorFlow and PyTorch is not overclocked and runs at the regular 1479 MHz.<br/>
 ![output image]( https://qengineering.eu/images/OverNanoUb20.webp )<br/>
+
+------------
+
+### Archive.
+
+The previous Ubuntu 20.04 image, with OpenCV **4.5.3**, TensorFlow **2.4.1** and PyTorch **1.9.0** can be [downloaded here](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing). 
 
 ------------
 
