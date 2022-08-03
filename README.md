@@ -31,7 +31,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 
 ### Split image.
 
-Because the image is large (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
+Due to the large image (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
 That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
 If you prefer this partial download over one large one, download the following 8 files (1 GB each) and place them in one folder.</br>
 - [JetsonUb20_2.7z.001](https://ln5.sync.com/dl/44d2f0f10/9h9skipf-i7jaixkh-mpbznnev-vk58qfaa)
