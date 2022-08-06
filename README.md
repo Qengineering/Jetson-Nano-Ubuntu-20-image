@@ -21,7 +21,7 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5). 
+- Download the image `JetsonNanoUb20_2.img.xz` (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
