@@ -26,6 +26,8 @@ Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issu
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
+- sha256sum: 492d6127d816e98fdb916f95f92d90e99ae4d4d7f98f58b0f5690003ce128b34
+- md5sum: f2181230622b81b6d882d4d696603e04 
 
 ------------
 
