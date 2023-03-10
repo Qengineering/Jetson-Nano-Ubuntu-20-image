@@ -4,6 +4,8 @@
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Tip 3-10-2023. 
+- Connected to the net for the first time? Wait for the Software Updater and let it refresh your operating system.
 ### Update 7-30-2022. 
 - Added bare overclocked Ubuntu 20.04 image.
 ### Update 7-26-2022. 
