@@ -103,6 +103,8 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 ## Pre-installed software.
 
+Clicking on the links below will direct you to our installation guide.<br>
+
 - [OpenCV](https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html) 4.6.0
 - [TensorFlow](https://qengineering.eu/install-tensorflow-2.4.0-on-jetson-nano.html) 2.4.1
 - [Pytorch](https://qengineering.eu/install-pytorch-on-jetson-nano.html) 1.12.0
