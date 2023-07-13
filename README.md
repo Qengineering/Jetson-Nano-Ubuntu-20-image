@@ -4,6 +4,8 @@
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Update 7-13-2023. 
+- Added an installation wheel for TensorRT 8.0.1.6+cuda10.2. The version is synchronous with the C++ version on the jetpack. Newer versions of TensorRT require CUDA 11 or later, which are not supported on a Jetson Nano.
 ### Tip 3-10-2023. 
 - Connected to the net for the first time? Wait for the Software Updater and let it refresh your operating system.
 ### Update 7-30-2022. 
