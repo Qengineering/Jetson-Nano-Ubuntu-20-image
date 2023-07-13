@@ -18,7 +18,7 @@
 - New xz achive (size reduction 26%)
 - New download site (Gdrive has a limited number of downloads per day).
 ### Update 1-30-2022. 
-Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
+- Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
 
 ------------
 
