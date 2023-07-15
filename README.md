@@ -4,6 +4,12 @@
 ![output image]( https://qengineering.eu/images/JetsonUB20version.webp )<br/><br/>
 ## A Jetson Nano - Ubuntu 20.04 image with OpenCV, TensorFlow and Pytorch
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
+### Update 7-15-2023. 
+- Refresh Ubuntu 20.04
+- Update OpenCV (**4.8.0**)
+- Update PyTorch (**1.13.0**)
+- Update TorchVision (**0.14.0**)
+- New: TensorRT (**8.0.1.6**)
 ### Update 7-13-2023. 
 - Added an installation wheel for TensorRT 8.0.1.6+cuda10.2. The version is synchronous with the C++ version found on the image. Newer versions of TensorRT require CUDA 11 or later, which are not supported on a Jetson Nano. (thanks to [Teemu Heikkilä](https://github.com/theikkila))
 ### Tip 3-10-2023. 
@@ -25,13 +31,15 @@
 ## Installation.
 
 - Get a 32 GB (minimal) SD-card which will hold the image. 
-- Download the image `JetsonNanoUb20_2.img.xz` (**7.9 GByte!**) from our [Sync](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5). 
+- Download the image `JetsonNanoUb20_3.img.xz` (**9.3 GByte!**) from our [Sync](https://ln5.sync.com/dl/f65071870/b5vp32ch-8s23cgn4-b9e4w24q-i2sf9aw2). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
-- sha256sum: 492d6127d816e98fdb916f95f92d90e99ae4d4d7f98f58b0f5690003ce128b34
-- md5sum: f2181230622b81b6d882d4d696603e04 
+  
+#### Tip:<br>
+The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
+Therefore, flash the image on an SD card of 64 or more. Then let GParted (`$ sudo apt-get install gparted`) enlarge the partition.
 
 ------------
 
@@ -73,7 +81,8 @@ By the way, the image with TensorFlow and PyTorch is not overclocked and runs at
 
 ### Archive.
 
-The previous Ubuntu 20.04 image, with OpenCV **4.5.3**, TensorFlow **2.4.1** and PyTorch **1.9.0** can be [downloaded here](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing). 
+The previous (7-26-2022) Ubuntu 20.04 image, with OpenCV **4.6.0**, TensorFlow **2.4.1** and PyTorch **1.12.0** can be [downloaded here](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5) - **7.9 GByte**.<br><br> 
+The first (9-22-2021) Ubuntu 20.04 image, with OpenCV **4.5.3**, TensorFlow **2.4.1** and PyTorch **1.9.0** can be [downloaded here](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing) - **10.3 GByte**. 
 
 ------------
 
@@ -107,23 +116,25 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 Clicking on the links below will direct you to our installation guide.<br>
 
-- [OpenCV](https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html) 4.6.0
+- [OpenCV](https://qengineering.eu/install-opencv-on-jetson-nano.html) 4.8.0
 - [TensorFlow](https://qengineering.eu/install-tensorflow-2.4.0-on-jetson-nano.html) 2.4.1
-- [Pytorch](https://qengineering.eu/install-pytorch-on-jetson-nano.html) 1.12.0
-- [TorchVision](https://qengineering.eu/install-pytorch-on-jetson-nano.html) 0.13.0
+- [Pytorch](https://qengineering.eu/install-pytorch-on-jetson-nano.html) 1.13.0
+- [TorchVision](https://qengineering.eu/install-pytorch-on-jetson-nano.html) 0.14.0
+- [TensorRT](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/11) 8.0.1.6
 - [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
-- [Jtop](https://github.com/rbonghi/jetson_stats) 3.1.2
+- [Jtop](https://github.com/rbonghi/jetson_stats) 4.2.1
 
-Tensorflow 2.5 and above require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software at this time, hence Tensorflow 2.4.1. Only when NVIDIA releases a JetPack for the Jetson Nano with CUDA 11 will we be able to upgrade Tensorflow.
+Tensorflow 2.5 and above, just like PyTorch 2.0, require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software.
 
-![output image]( https://qengineering.eu/images/InstalledUb202.png )<br/>
-![output image]( https://qengineering.eu/images/InstalledJtop202.png )<br/>
+![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/466e8a7e-b610-41c9-bfdb-5291465f24e4)<br>
+![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/f7931af3-d4c2-4ca0-bf00-d09e2c18e313)<br>
+![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/6df69080-f84f-465a-a20f-199d4b2a98b2)<br>
 
 ------------
 
-## OpenCV + TensorFlow.
+## OpenCV + TensorFlow or TensorRT.
 
-Importing both TensorFlow and OpenCV in Python can throw the error: _cannot allocate memory in static TLS block_.<br/>
+Importing both TensorFlow (or TensorRT) and OpenCV in Python can throw the error: _cannot allocate memory in static TLS block_.<br/>
 This behaviour only occurs on an aarch64 system and is caused by the OpenMP memory requirements not being met.<br/>
 For more information, see GitHub ticket [#14884](https://github.com/opencv/opencv/issues/14884).<br/>
 
