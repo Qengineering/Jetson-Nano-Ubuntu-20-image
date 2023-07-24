@@ -112,6 +112,11 @@ You can select your choice with `$ sudo update-alternatives --config gcc` and `$
 
 ------------
 
+## SSD 
+
+You can use an external SSD drive holding your Ubuntu 20.04 OS and other software.
+Please follow the steps given at [issue 32](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/issues/32).
+
 ## Pre-installed software.
 
 Clicking on the links below will direct you to our installation guide.<br>
