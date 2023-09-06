@@ -21,7 +21,7 @@
 - Update OpenCV (**4.6.0**)
 - Update PyTorch (**1.12.0**)
 - Update TorchVision (**0.13.0**)
-- New xz achive (size reduction 26%)
+- New xz archive (size reduction 26%)
 - New download site (Gdrive has a limited number of downloads per day).
 ### Update 1-30-2022. 
 - Add **Jtop** (thanks to [SkrilaxCZ](https://github.com/rbonghi/jetson_stats/issues/173))
@@ -30,7 +30,7 @@
 
 ## Installation.
 
-- Get a 32 GB (minimal) SD-card which will hold the image. 
+- Get a 32 GB (minimal) SD card to hold the image. 
 - Download the image `JetsonNanoUb20_3.img.xz` (**9.3 GByte!**) from our [Sync](https://ln5.sync.com/dl/f65071870/b5vp32ch-8s23cgn4-b9e4w24q-i2sf9aw2). 
 - Flash the image on the SD card with the [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
@@ -45,27 +45,33 @@ Therefore, flash the image on an SD card of 64 or more. Then let GParted (`$ sud
 
 ### Split image.
 
-Due to the large image (7.9 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
+Due to the large image (9.3 GB), the download may take quite some time. It makes downloading vulnerable.<br/>
 That's why we split the file into smaller chunks. These are more manageable than one huge download.<br/>
-If you prefer this partial download over one large one, download the following 8 files (1 GB each) and place them in one folder.</br>
-- [JetsonUb20_2.7z.001](https://ln5.sync.com/dl/44d2f0f10/9h9skipf-i7jaixkh-mpbznnev-vk58qfaa)
-- [JetsonUb20_2.7z.002](https://ln5.sync.com/dl/d506a8680/rfs5jync-rgnkvk9u-igwjc2y5-pxkppy4c)
-- [JetsonUb20_2.7z.003](https://ln5.sync.com/dl/21e5b83e0/e87zbu2t-mx8vvhh4-z7kww4g3-hfe68b46)
-- [JetsonUb20_2.7z.004](https://ln5.sync.com/dl/401753da0/qipc4az9-7amw452w-asiazc5u-t8t4yy99)
-- [JetsonUb20_2.7z.005](https://ln5.sync.com/dl/866cb6b90/zrpbzhyk-p392casn-qqmp2g6c-qwxiz7nq)
-- [JetsonUb20_2.7z.006](https://ln5.sync.com/dl/84b315060/w6mb6jyi-pnhrxs2i-e3mqn747-8yqzpc4n)
-- [JetsonUb20_2.7z.007](https://ln5.sync.com/dl/7a82d6820/xn6y9jva-xqeqfqkq-hbu5kkr2-dssdjhhq)
-- [JetsonUb20_2.7z.008](https://ln5.sync.com/dl/01c6d8a60/6nrvzuv9-4s8ik4wh-3hqn6b8k-4cj4hkz4)
+If you prefer this partial download over one large one, download the following 14 files (700 MB each) and place them in one folder.</br>
+- [JetsonNanoUb20_3.img.xz.001](https://ln5.sync.com/dl/4f9119840/nqy7pqnz-4hmpmr6d-nyn3tjch-3xp557rv)
+- [JetsonNanoUb20_3.img.xz.002](https://ln5.sync.com/dl/7535584d0/gkncc5qj-kes65cap-saq6kxuq-qb3fhznt)
+- [JetsonNanoUb20_3.img.xz.003](https://ln5.sync.com/dl/239639dc0/p6frgn8p-5kj7etyf-qqdmyprn-6fk23euf)
+- [JetsonNanoUb20_3.img.xz.004](https://ln5.sync.com/dl/4aa8c4a20/t4hh4cz8-weqs697j-gkgq6kut-jct6v4mf)
+- [JetsonNanoUb20_3.img.xz.005](https://ln5.sync.com/dl/3d59ac2d0/g5v463h9-rdb857f5-ci9uqvm6-3ktpbs2m)
+- [JetsonNanoUb20_3.img.xz.006](https://ln5.sync.com/dl/9ca826bf0/qsxp7y4r-zedrwuxk-9ju7mcuc-a2srfpxr)
+- [JetsonNanoUb20_3.img.xz.007](https://ln5.sync.com/dl/1ec0abf60/qqgghf4r-b325znyi-j368592w-r4ynzsd3)
+- [JetsonNanoUb20_3.img.xz.008](https://ln5.sync.com/dl/cd0672300/vhqhr22v-vcn5hg74-ptxrkp59-g5uebvp2)
+- [JetsonNanoUb20_3.img.xz.009](https://ln5.sync.com/dl/87f276610/ekn5biuy-a4ar3fvn-vy24yz7n-238uuty7)
+- [JetsonNanoUb20_3.img.xz.010](https://ln5.sync.com/dl/b1033b160/xwvf3wyd-qb9tey4v-vz7ppgxh-wz6pqx6i)
+- [JetsonNanoUb20_3.img.xz.011](https://ln5.sync.com/dl/3d451a650/vwesvy6u-f9yj3whx-me37tk3r-ufiep2n7)
+- [JetsonNanoUb20_3.img.xz.012](https://ln5.sync.com/dl/633c663e0/8fwvk67u-tzq56tmg-cip7nmjs-qchxbxtd)
+- [JetsonNanoUb20_3.img.xz.013](https://ln5.sync.com/dl/f0afde610/3fuipkkz-zt59nnp2-vqsyeeg2-zj7fjysm)
+- [JetsonNanoUb20_3.img.xz.014](https://ln5.sync.com/dl/efafea8b0/fmjikvbk-a6mygxtn-3h5n3s6j-79ie8fvx)
 
 Once you have all the files run
 ```
-7z x JetsonUb20_2.7z.001
+7z x JetsonNanoUb20_3.img.xz.001
 ```
-7Z will start extracting the first file (`*.001`) and then automatically the next files in order.</br>
-You will endup with `JetsonNanoUb20_2.img.xz`, the original image which you now can flash on a SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
+7Z will start extracting the first file (`*.001`) and automatically the next files in order.</br>
+You will end up with `JetsonNanoUb20_3.img.xz`, the original image which you now can flash on an SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
 If you get the error `'7z' is not recognized as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
 ```
-"C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_2.7z.001
+"C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_3.img.xz.001
 ```
 
 ------------
@@ -81,7 +87,17 @@ By the way, the image with TensorFlow and PyTorch is not overclocked and runs at
 
 ### Archive.
 
-The previous (7-26-2022) Ubuntu 20.04 image, with OpenCV **4.6.0**, TensorFlow **2.4.1** and PyTorch **1.12.0** can be [downloaded here](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5) - **7.9 GByte**.<br><br> 
+The previous (7-26-2022) Ubuntu 20.04 image, with OpenCV **4.6.0**, TensorFlow **2.4.1** and PyTorch **1.12.0** can be [downloaded here](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5) - **7.9 GByte**.<br>
+Or the split image:<br>
+- [JetsonUb20_2.7z.001](https://ln5.sync.com/dl/44d2f0f10/9h9skipf-i7jaixkh-mpbznnev-vk58qfaa)
+- [JetsonUb20_2.7z.002](https://ln5.sync.com/dl/d506a8680/rfs5jync-rgnkvk9u-igwjc2y5-pxkppy4c)
+- [JetsonUb20_2.7z.003](https://ln5.sync.com/dl/21e5b83e0/e87zbu2t-mx8vvhh4-z7kww4g3-hfe68b46)
+- [JetsonUb20_2.7z.004](https://ln5.sync.com/dl/401753da0/qipc4az9-7amw452w-asiazc5u-t8t4yy99)
+- [JetsonUb20_2.7z.005](https://ln5.sync.com/dl/866cb6b90/zrpbzhyk-p392casn-qqmp2g6c-qwxiz7nq)
+- [JetsonUb20_2.7z.006](https://ln5.sync.com/dl/84b315060/w6mb6jyi-pnhrxs2i-e3mqn747-8yqzpc4n)
+- [JetsonUb20_2.7z.007](https://ln5.sync.com/dl/7a82d6820/xn6y9jva-xqeqfqkq-hbu5kkr2-dssdjhhq)
+- [JetsonUb20_2.7z.008](https://ln5.sync.com/dl/01c6d8a60/6nrvzuv9-4s8ik4wh-3hqn6b8k-4cj4hkz4)
+
 The first (9-22-2021) Ubuntu 20.04 image, with OpenCV **4.5.3**, TensorFlow **2.4.1** and PyTorch **1.9.0** can be [downloaded here](https://drive.google.com/file/d/13IsHEH8RnpFwJob1ZeJynVj40BKt5qBL/view?usp=sharing) - **10.3 GByte**. 
 
 ------------
@@ -131,7 +147,7 @@ Clicking on the links below will direct you to our installation guide.<br>
 - [TeamViewer aarch64](https://www.teamviewer.com/en/download/linux/) 15.24.5
 - [Jtop](https://github.com/rbonghi/jetson_stats) 4.2.1
 
-Tensorflow 2.5 and above, just like PyTorch 2.0, require CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software.
+Tensorflow 2.5 and above, just like PyTorch 2.0, requires CUDA 11. CUDA version 11 cannot be installed on a Jetson Nano due to incompatibility between the GPU and low-level software.
 
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/466e8a7e-b610-41c9-bfdb-5291465f24e4)<br>
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/f7931af3-d4c2-4ca0-bf00-d09e2c18e313)<br>
