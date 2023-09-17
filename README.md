@@ -70,13 +70,13 @@ If you prefer this partial download over one large one, download the following 1
 
 Once you have all the files run
 ```
-7z x JetsonNanoUb20_3.img.xz.001
+7z x JetsonNanoUb20_3b.img.xz.001
 ```
 7Z will start extracting the first file (`*.001`) and automatically the next files in order.</br>
-You will end up with `JetsonNanoUb20_3.img.xz`, the original image which you now can flash on an SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
+You will end up with `JetsonNanoUb20_3b.img.xz`, the original image which you now can flash on an SD card with [Imager](https://www.raspberrypi.org/software/) or [balenaEtcher](https://www.balena.io/etcher/).<br/><br/>
 If you get the error `'7z' is not recognized as an internal or external command, operable program or batch file.` please give the full path to 7z. For instance,
 ```
-"C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_3.img.xz.001
+"C:\Program Files\7-Zip\7z.exe" x JetsonNanoUb20_3b.img.xz.001
 ```
 
 ------------
