@@ -160,6 +160,24 @@ Tensorflow 2.5 and above, just like PyTorch 2.0, requires CUDA 11. CUDA version 
 
 ------------
 
+## VNC.
+Ubuntu 20.04 supports VNC. Please follow the next steps to enable it.<br>
+BTW, images are taken from the Jetson Orin, but they are identical on the Jetson Ubuntu 20<br>
+![VNC_1](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/e94843dd-3222-4893-8848-e169461101da)<br>
+![VNC_2](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/52d4fcfa-0492-4b1e-bef7-a0f3f6929038)<br>
+![VNC_3](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/b9f89e79-bf53-4690-ad7d-6e53895546f9)<br>
+![VNC_4](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/cf2abd1d-1b26-44fa-92b3-34d363fd7948)<br>
+The last step is lowering the encryption level.
+```
+$ gsettings set org.gnome.Vino require-encryption false
+```
+
+
+
+
+
+------------
+
 ## OpenCV + TensorFlow or TensorRT.
 
 Importing both TensorFlow (or TensorRT) and OpenCV in Python can throw the error: _cannot allocate memory in static TLS block_.<br/>
