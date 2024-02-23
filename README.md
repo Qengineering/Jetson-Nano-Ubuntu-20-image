@@ -171,7 +171,7 @@ The last step is lowering the encryption level.
 ```
 $ gsettings set org.gnome.Vino require-encryption false
 ```
-On your client please uncheck the authboxes.<br>
+On your client please uncheck the _Authenticate_ boxes.<br>
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/9a646010-d53e-4e65-8681-f9785e6ffa85)
 
 
