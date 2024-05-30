@@ -90,6 +90,13 @@ By the way, the image with TensorFlow and PyTorch is not overclocked and runs at
 
 ------------
 
+### ROS
+
+If you plan to use this image with ROS, please look at [JetsonNano-ROS2](https://github.com/AIResearchLab/JetsonNano-ROS2).<br>
+As you can see, the Robotics and Artificial Intelligence Lab, part of the Faculty of Science and Technology at the University of Canberra has done a great job. Thanks. 👍
+
+------------
+
 ### Archive.
 
 The previous (7-26-2022) Ubuntu 20.04 image, with OpenCV **4.6.0**, TensorFlow **2.4.1** and PyTorch **1.12.0** can be [downloaded here](https://ln5.sync.com/dl/741c98fe0/x8kxkhgs-cgmzk7rf-n4m7pyw8-h64tzbv5) - **7.9 GByte**.<br>
