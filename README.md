@@ -181,9 +181,23 @@ $ gsettings set org.gnome.Vino require-encryption false
 On your client please uncheck the _Authenticate_ boxes.<br>
 ![image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/9a646010-d53e-4e65-8681-f9785e6ffa85)
 
+------------
 
-
-
+## Headless.
+If you want a headless installation of Ubuntu 20.04, please follow the next commands.
+```
+sudo chown root:root / /lib
+sudo apt purge ubuntu-desktop -y && sudo apt autoremove -y && sudo apt autoclean
+sudo apt-get remove nautilus nautilus-* gnome-power-manager gnome-screensaver gnome-termina* gnome-pane* 
+sudo apt-get remove gnome-applet* gnome-bluetooth gnome-desktop* gnome-sessio* gnome-user* gnome-shell-common
+sudo apt-get remove zeitgeist-core libzeitgeist* gnome-control-center gnome-screenshot && sudo apt-get autoremove
+sudo apt-get remove --purge libreoffice*
+sudo apt-get remove libreoffice-core
+sudo apt-get remove snapd lightdm cups chromium*
+```
+You end up with a headless OS consuming ~ 420 MB.<br>
+Below is a screen dump of Putty connected to the Jetson Nano running jtop.<br>
+![330769059-52674244-cf3c-4ea1-a903-a1ed19719ce0](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image/assets/44409029/cbdf1acc-19d5-4b7b-bf10-7ba8556afcbb)
 
 
 ------------
