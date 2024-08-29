@@ -87,6 +87,7 @@ If you get the error `'7z' is not recognized as an internal or external command,
 For those who want a bare-bones Ubuntu 20.04 OS with JetPack 4.6.1, without TensorFlow and PyTorch, you can download the [image here](https://ln5.sync.com/dl/7261d3770/jebr2z9k-kwj4wwvd-3wxjtqsx-36zbu3cx) (5.6 GB).<br/>
 The Nano is overclocked at 1900 MHz. See https://qengineering.eu/overclocking-the-jetson-nano.html for more information.<br/>
 By the way, the image with TensorFlow and PyTorch is not overclocked and runs at the regular 1479 MHz.<br/>
+- JetsonNanoUb20_bare.img.xz md5sum: DB4FC5A1B09876B37FF57F42540B3250 
 ![output image]( https://qengineering.eu/images/OverNanoUb20.webp )<br/>
 
 ------------
