@@ -42,7 +42,7 @@
 - According to [issue #17](https://github.com/Qengineering/Jetson-Nano-image/issues/17#) only flash the xz directly, not an unzipped img image.
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
-- JetsonNanoUb20_3b.img.xz md5sum: D738F120088A1BDBD10E2358B512F7
+- JetsonNanoUb20_3b.img.xz md5sum: D738F1FE20088A1BDBD10E2358B512F7
   
 #### Tip:<br>
 The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
