@@ -43,7 +43,10 @@
 - Insert the SD card in your Jetson Nano and enjoy.
 - Password: ***jetson***
 - JetsonNanoUb20_3b.img.xz md5sum: D738F1FE20088A1BDBD10E2358B512F7
-  
+
+### GDrive.
+For those having trouble with a solid connection to Sync, we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and only use Google Drive if necessary.
+
 #### Tip:<br>
 The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
 Therefore, flash the image on an SD card of 64 or more. Then let GParted (`$ sudo apt-get install gparted`) enlarge the partition.
