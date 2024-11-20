@@ -45,11 +45,11 @@
 - JetsonNanoUb20_3b.img.xz md5sum: D738F1FE20088A1BDBD10E2358B512F7
 
 ### GDrive.
-In some parts of the world it is difficult to get a good solid connection to Sync. That is why we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and only use Google Drive if necessary.
+In some parts of the world, getting a good solid connection to Sync is difficult. That is why we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
 
 #### Tip:<br>
 The SD card is overflowing with software; more than 21 GByte! With a 32 GB card, you don't have enough space to work decently.<br>
-Therefore, flash the image on an SD card of 64 or more. Then let GParted (`$ sudo apt-get install gparted`) enlarge the partition.
+Therefore, flash the image on an SD card of 64 or more and use GParted (`$ sudo apt-get install gparted`) to enlarge the partition.
 
 ------------
 
