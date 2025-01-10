@@ -94,7 +94,7 @@ By the way, the image with TensorFlow and PyTorch is not overclocked and runs at
 ![output image]( https://qengineering.eu/images/OverNanoUb20.webp )<br/>
 
 #### GDrive.
-For this image, we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
+For this image, we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1hzkWD6jX1eeU7flR7ejeOuMg5P-iH_el/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
 
 ------------
 
