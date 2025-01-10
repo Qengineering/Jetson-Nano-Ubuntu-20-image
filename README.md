@@ -93,6 +93,9 @@ By the way, the image with TensorFlow and PyTorch is not overclocked and runs at
 - JetsonNanoUb20_bare.img.xz md5sum: DB4FC5A1B09876B37FF57F42540B3250 
 ![output image]( https://qengineering.eu/images/OverNanoUb20.webp )<br/>
 
+#### GDrive.
+For this image, we've also provided a copy on [Google Drive](https://drive.google.com/file/d/1L2H_sQC_kSILrcJteWg7htKxJirtDsZ9/view?usp=sharing). However, Google Drive limits the number of daily downloads, which is much lower than our average daily download volume. Please be considerate and use Google Drive only if necessary.
+
 ------------
 
 ### ROS
